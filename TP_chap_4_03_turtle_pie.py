@@ -37,7 +37,7 @@ def main():
     bob.pd() 
     bob.lt(180)
     draw_pie(bob,100,5)
-    bob.lt(90)
+    bob.lt(180)
 
 
     bob.pu()
@@ -45,13 +45,14 @@ def main():
     bob.pd() 
     bob.lt(90)
     draw_pie(bob,100,6)
-  
+    # the draw pie commands will make the turtle face in the direction it originally started in the end
 
+    bob.rt(90)
     bob.pu()
     bob.fd(300)
     bob.pd() 
     bob.lt(180)
-    draw_pie(bob,100,7)
+    draw_pie(bob,100,7) 
 
     turtle.mainloop()
 
